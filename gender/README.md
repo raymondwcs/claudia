@@ -1,4 +1,8 @@
-# Claudia
+# Claudia.js
+This is a step-by-step guide for creating a simple serverless Web API using Lambda and API Gateway, and deploying it to AWS using [Claudia.js](https://claudiajs.com). AWS Lambda is an event-driven compute service, that executes your code in reaction to various events. API Gateway is a HTTPS end-point that can receive requests and pass them on to Lambda. In this tutorial, we’ll connect them together to execute simple requests.
+
+The simple serverless Web API determines the gender (male, female and unknown) of a first name.  This API takes a single query string parameter `name`.
+
 ## Preparation
 1. Obtain an **access key** (AWS Access Key ID and AWS Seret Access Key) for the *root* user.  Follow the instructions at the URL below.
 https://www.techrepublic.com/article/how-to-create-an-access-key-for-the-root-user-in-aws/
@@ -17,6 +21,8 @@ chmod 600 ~/.aws/credentials
 npm install claudia -D
 npm install claudia-api-builder
 ```
+Refer to the [official preparation guide](https://claudiajs.com/tutorials/installing.html) for more details.
+
 ## Steps
 Create and deploy the sample `gender` API endpoint as Lambda Function
 ```
