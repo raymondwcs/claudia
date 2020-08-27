@@ -24,7 +24,7 @@ npm install claudia-api-builder
 Refer to the [official preparation guide](https://claudiajs.com/tutorials/installing.html) for more details.
 
 ## Steps
-Create and deploy the sample `gender` API endpoint as Lambda Function
+Create and deploy the sample `gender` API endpoint as Lambda function
 ```
 ./node_modules/.bin/claudia create --region us-east-1 --api-module app
 ```
