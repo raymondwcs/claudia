@@ -2,23 +2,23 @@
 ## Preparation
 1. Obtain an **access key** (AWS Access Key ID and AWS Seret Access Key) for the *root* user.  Follow the instructions at the URL below.
 https://www.techrepublic.com/article/how-to-create-an-access-key-for-the-root-user-in-aws/
-1. Add the keys to your `~/.aws/credentials` file
+2. Add the keys to your `~/.aws/credentials` file
 ```
 [claudia]
 aws_access_key_id = YOUR_ACCESS_KEY
 aws_secret_access_key = YOUR_ACCESS_SECRET
 ```
-1. Change the acess rights of `~/.aws/credentials`
+3. Change the acess rights of `~/.aws/credentials`
 ```
 chmod 600 ~/.aws/credentials
 ```
-1. Install Claudia
+4. Install Claudia
 ```
 sudo npm install claudia -g
 npm install claudia-api-builder
 ```
 ## Steps
-1. Create and deploy the sample `gender` API endpoint as Lambda Function
+Create and deploy the sample `gender` API endpoint as Lambda Function
 ```
 ./node_modules/.bin/claudia create --region us-east-1 --api-module app
 ```
@@ -64,7 +64,7 @@ creating REST API	apigateway.createDeployment	restApiId=5wjm8iz1e3	ssaving confi
   }
 }
 ```
-1. Upon successful deployment, an URL of your Lambda function will be given to you.
+Upon successful deployment, an URL of your Lambda function will be given to you.
 ### Run your Lambda function
 ```
 https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/latest?name=raymomnd
