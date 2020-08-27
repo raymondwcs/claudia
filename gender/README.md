@@ -18,7 +18,11 @@ aws_secret_access_key = YOUR_ACCESS_SECRET
 ```
 chmod 600 ~/.aws/credentials
 ```
-4. Install Claudia
+4. Set the `AWS_PORFILE` environment variable to `claudia`
+```
+export AWS_PROFILE=claudia
+```
+5. Install Claudia
 ```
 npm install claudia -D
 npm install claudia-api-builder
