@@ -76,13 +76,14 @@ creating REST API	apigateway.createDeployment	restApiId=5wjm8iz1e3	ssaving confi
   }
 }
 ```
-Upon successful deployment, an URL of your Lambda function will be provided.
+Upon successful deployment, write down the URL of the AWS API Gateway to the Lambda function.
+
 ### Run your Lambda function
-Goto the following URL.
+Open the URL of the API Gateway with a single query string parameter `?name=raymond` in your web broswer.
 ```
 https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/latest?name=raymomnd
 ```
-The Lambda function returns
+The Lambda function returns the following JSON string.
 ```
 {"raymond":"male"}
 ```
