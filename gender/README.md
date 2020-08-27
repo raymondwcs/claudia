@@ -78,6 +78,11 @@ creating REST API	apigateway.createDeployment	restApiId=5wjm8iz1e3	ssaving confi
 ```
 Upon successful deployment, an URL of your Lambda function will be provided.
 ### Run your Lambda function
+Goto the following URL.
 ```
 https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/latest?name=raymomnd
+```
+The Lambda function returns
+```
+{"raymond":"male"}
 ```
