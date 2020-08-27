@@ -14,7 +14,7 @@ chmod 600 ~/.aws/credentials
 ```
 4. Install Claudia
 ```
-sudo npm install claudia -g
+npm install claudia -D
 npm install claudia-api-builder
 ```
 ## Steps
