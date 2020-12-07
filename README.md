@@ -34,7 +34,7 @@ Create and deploy the sample `gender` API endpoint as Lambda function
 ```
 ./node_modules/.bin/claudia create --region us-east-1 --api-module app
 ```
-Wait for the completion of deployment.  Look for the URL of your Lamda function.
+Wait for the completion of deployment.  Look for the **URL** of your Lamda function.
 ```
 packaging files	npm install -q --no-audit --production
 npm WARN gender@0.0.1 No repository field.
@@ -76,7 +76,7 @@ creating REST API	apigateway.createDeployment	restApiId=5wjm8iz1e3	ssaving confi
   }
 }
 ```
-Upon successful deployment, write down the URL of the AWS API Gateway to the Lambda function.
+Upon successful deployment, write down the **URL** of the AWS API Gateway to the Lambda function.
 
 ### Run your Lambda function
 Open the URL of the API Gateway with a single query string parameter `?name=raymond` in your web broswer.
