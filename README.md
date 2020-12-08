@@ -87,3 +87,7 @@ The Lambda function returns the following JSON string.
 ```
 {"raymond":"male"}
 ```
+## Notes for redeployment
+Before *redeploying* your Lambda function, remove the `gender-executor` role.  See the following screenshoot for more details.
+
+![Remove Role](Delete_Role.png)
