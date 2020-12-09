@@ -25,7 +25,6 @@ export AWS_PROFILE=claudia
 5. Install Claudia
 ```
 npm install claudia -D
-npm install claudia-api-builder
 ```
 Refer to the [official preparation guide](https://claudiajs.com/tutorials/installing.html) for more details.
 
