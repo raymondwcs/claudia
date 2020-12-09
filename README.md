@@ -86,7 +86,8 @@ The Lambda function returns the following JSON string.
 ```
 {"raymond":"male"}
 ```
-### Updating your Lambda function
+## Updating your Lambda function
+Use the following command to deploy a new/modified version of the Lambda function.
 ```
 ./node_modules/.bin/claudia update
 ```
