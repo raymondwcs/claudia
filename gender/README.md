@@ -91,3 +91,8 @@ Use the following command to deploy a new/modified version of the Lambda functio
 ```
 ./node_modules/.bin/claudia update
 ```
+## Destroying your Lambda function
+Use the following command to remove the Lambda function.
+```
+./node_modules/.bin/claudia destroy
+```
