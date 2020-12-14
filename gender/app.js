@@ -218,7 +218,7 @@ api.get('/{name}', function (req) {
         result['error'] = 'name missing'
     } else {
         if (males.includes(req.pathParams.name.toUpperCase())) {
-            result[req.queryString.name] = 'male'
+            result[req.pathParams.name] = 'male'
         } else if (females.includes(req.pathParams.name.toUpperCase())) {
             result[req.pathParams.name] = 'female'
         } else {

@@ -77,7 +77,7 @@ creating REST API	apigateway.createDeployment	restApiId=5wjm8iz1e3	ssaving confi
 ```
 Upon successful deployment, write down the **URL** of the AWS API Gateway to the Lambda function.
 
-### Run your Lambda function
+## Run your Lambda function
 ```
 https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/latest/raymomnd
 ```
