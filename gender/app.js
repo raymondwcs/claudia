@@ -212,18 +212,17 @@ var api = new ApiBuilder()
 
 module.exports = api;
 
-api.get('/', function (req) {
-    console.log(`name = ${req.queryString.name}`)
+api.get('/{name}', function (req) {
     result = {};
-    if (!req.queryString.name) {
+    if (!req.pathParams.name) {
         result['error'] = 'name missing'
     } else {
-        if (males.includes(req.queryString.name.toUpperCase())) {
+        if (males.includes(req.pathParams.name.toUpperCase())) {
             result[req.queryString.name] = 'male'
-        } else if (females.includes(req.queryString.name.toUpperCase())) {
-            result[req.queryString.name] = 'female'
+        } else if (females.includes(req.pathParams.name.toUpperCase())) {
+            result[req.pathParams.name] = 'female'
         } else {
-            result[req.queryString.name] = 'unknown'
+            result[req.pathParams.name] = 'unknown'
         }
     }
     return result
