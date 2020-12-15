@@ -57,7 +57,7 @@ initialising IAM role	iam.putRolePolicy	PolicyName=log-writer	RoleNamecreating v
 }
 ```
 3. Locate the endpoint's URL.
-4. Submit a RESTful request to read one booking document.
+4. Submit a RESTful request to AWS to read one booking document.
 ```
 curl -X GET "https://XXXXXXXXXX.execute-api.us-east-1.amazonaws.com/latest/api/booking/BK002"
 ```
