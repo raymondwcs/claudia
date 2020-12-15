@@ -66,7 +66,7 @@ curl -X GET "https://XXXXXXXXXX.execute-api.us-east-1.amazonaws.com/latest/api/b
 ```
 ./node_modules/.bin/claudia update
 ```
-2. Issue the following command to destroy (remove) the deployed Lambda functions
+2. Issue the following command to destroy (remove) the deployed Lambda function(s)
 ```
 ./node_modules/.bin/claudia destroy
 ```
