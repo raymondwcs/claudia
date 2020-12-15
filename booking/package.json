@@ -1,0 +1,16 @@
+{
+    "name": "booking",
+    "description": "Claudia",
+    "author": "Raymond SO <rso@ouhk.edu.hk>",
+    "version": "0.0.1",
+    "dependencies": {
+        "aws-serverless-express": "^3.4.0",
+        "claudia-api-builder": "^4.1.2",
+        "mongodb": "3.6.3",
+        "express": "4.17.1"
+    },
+    "engine": "*",
+    "devDependencies": {
+        "claudia": "^5.12.0"
+    }
+}
