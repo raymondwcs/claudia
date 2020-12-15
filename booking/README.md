@@ -1,7 +1,7 @@
 # Making your Express.js app serverless
 This tutorial demonstrates how to use [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html) to deploy Express apps to AWS Lambda and API Gateway, with minimal changes.
 
-The sample app implements one RESTful API at the following endpoint:
+This example implements one RESTful API at the following endpoint:
 ```
 /api/booking/{bookingid}
 ```
