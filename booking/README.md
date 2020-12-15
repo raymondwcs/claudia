@@ -20,19 +20,16 @@ This example implements one RESTful API at the following endpoint:
 curl -X GET localhost:8099/api/booking/BK002
 ```
 ## Deploying the Express app to AWS Lambda and API Gateway
-1. Install Claudia
-```
-npm install claudia -D
-```
-1. Generate **AWS Lambda wrapper** for the Express app
+1. Prepare `~/.aws/credentials` by following steps 1 to 5 described in this [document](../gender/README.md).
+2. Generate **AWS Lambda wrapper** for the Express app
 ```
 ./node_modules/.bin/claudia generate-serverless-express-proxy --express-module app
 ```
-2. Deploy to AWS Lambda and API Gateway
+3. Deploy to AWS Lambda and API Gateway
 ```
 claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1
 ```
-You'll see the following in the output. Wait for depolyment to complete.
+You'll see the following messages in the output. Wait for depolyment to complete.
 ```
 handler --deploy-proxy-api --region us-east-1
 packaging files	npm install -q --no-audit --production
