@@ -15,7 +15,7 @@ This example implements one RESTful API at the following endpoint:
 ```
 1. Replace value of `mongourl` variable in [app.js](app.js) with your MongoDB Atlas connection url.
 1. Install app dependencies: `npm install`
-1. Ensure the app is working fine before deploying it to AWS.  Test the app by submiting the following RESTful request to retrieve a booking document.
+1. Ensure the app is working fine before deploying it to AWS.  Test the app by submiting the following RESTful request to read a booking document.
 ```
 curl -X GET localhost:8099/api/booking/BK002
 ```
