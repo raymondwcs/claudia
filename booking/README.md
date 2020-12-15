@@ -32,7 +32,7 @@ npm install claudia -D
 ```
 claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1
 ```
-Wait for depolyment to complete.
+You'll see the following in the output. Wait for depolyment to complete.
 ```
 handler --deploy-proxy-api --region us-east-1
 packaging files	npm install -q --no-audit --production
@@ -56,7 +56,7 @@ initialising IAM role	iam.putRolePolicy	PolicyName=log-writer	RoleNamecreating v
   }
 }
 ```
-3. Locate the endpoint's URL.
+3. Locate the endpoint's URL that appears at the end of the output of the deploy command.
 4. Submit a RESTful request to AWS to read one booking document.
 ```
 curl -X GET "https://XXXXXXXXXX.execute-api.us-east-1.amazonaws.com/latest/api/booking/BK002"
