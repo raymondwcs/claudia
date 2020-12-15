@@ -6,7 +6,7 @@ The sample app implements one RESTful API at the following endpoint:
 /api/booking/{bookingid}
 ```
 ## Preparation
-1. You need a collection named `bookings` in your `test` database.  You need the following booking document.
+1. You need a collection named `bookings` in your `test` database.  You also need the following booking document in the `bookings` collection:
 ```
 {
     bookingid: "BK002",
