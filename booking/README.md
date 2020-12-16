@@ -27,12 +27,10 @@ curl -X GET localhost:8099/api/booking/BK002
 ```
 3. Deploy to AWS Lambda and API Gateway
 ```
-claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1
+./node_modules/.bin/claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1
 ```
 You'll see the following messages in the output. Wait for depolyment to complete.
 ```
-handler --deploy-proxy-api --region us-east-1
-packaging files	npm install -q --no-audit --production
 npm WARN booking@0.0.1 No repository field.
 npm WARN booking@0.0.1 No license field.
 
