@@ -8,7 +8,7 @@ The simple serverless Web API determines the *gender* (male, female or unknown) 
 ```
 
 ## Preparation
-1. Obtain AWS **Access Key ID** and **Secret Access Key** for the *root* user.  Follow the instructions at the URL below.
+1. Obtain AWS **Access Key ID** and **Secret Access Key** for the *root* user.  Goto [AWS Console](https://aws.amazon.com/console/) and follow the instructions at the URL below.
 ```
 https://www.techrepublic.com/article/how-to-create-an-access-key-for-the-root-user-in-aws/
 ```
