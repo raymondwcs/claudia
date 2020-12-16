@@ -15,14 +15,14 @@ You need to create a `~/.aws/credentials` file that contains your **AWS Access K
 ![AWS Keys](keys-2.jpg)
 ![AWS Keys](keys-3.jpg)
 
-2. Add these keys to your `~/.aws/credentials` file.
+2. Add these keys to `~/.aws/credentials` file.
 ```
 [claudia]
 aws_access_key_id = YOUR_ACCESS_KEY
 aws_secret_access_key = YOUR_ACCESS_SECRET
 aws_session_token = YOUR_SESSION_TOKEN
 ```
-3. Change the access rights of `~/.aws/credentials`
+3. Change the access rights of `~/.aws/credentials` file.
 ```
 chmod 600 ~/.aws/credentials
 ```
