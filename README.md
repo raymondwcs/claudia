@@ -3,4 +3,4 @@ This project contains examples of using [Claudia.js](https://claudiajs.com) to b
 
 1. `gender` - RESTful API to determine gender of some first names.
 1. `shape` - RESTful APIs for calculating perimeter and area of circles and squares.
-1. `booking` - Deploy Express app using [Claudia's Lambda proxy wrapper]{https://claudiajs.com/tutorials/serverless-express.html}
+1. `booking` - Deploy Express app using [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html)
