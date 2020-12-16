@@ -1,10 +1,10 @@
 # Claudia.js Examples
 This project contains examples of using [Claudia.js](https://claudiajs.com) to build **serverless** RESTful functions, which will be deployed using  [AWS Lambda](https://aws.amazon.com/lambda/) + [AWS API Gateway](https://aws.amazon.com/api-gateway/)
 
-1. `gender` - RESTful API to determine gender of some first names.
-1. `shape` - RESTful APIs for calculating perimeter and area of circles and squares.
-1. `booking` - Deploy Express app using [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html)
-1. `toRomanNumeral` - Deploy Express app using [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html)
+1. [gender](https://github.com/raymondwcs/claudia/tree/master/gender) - RESTful API to determine gender of some first names.
+1. [shape](https://github.com/raymondwcs/claudia/tree/master/shape) - RESTful APIs for calculating perimeter and area of circles and squares.
+1. [booking](https://github.com/raymondwcs/claudia/tree/master/booking) - Deploy Express app using [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html)
+1. [toRomanNumeral](https://github.com/raymondwcs/claudia/tree/master/toRomanNumeral) - Deploy Express app using [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html)
 
 ## [Preparation](#preparation)
 You need to create a `~/.aws/credentials` file that contains your **AWS Access Key ID**, **AWS Secret Access Key** and **AWS Session Token**.
