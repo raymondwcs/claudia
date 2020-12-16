@@ -1,5 +1,5 @@
 # Claudia.js Examples
-This project contains examples of using [Claudia.js](https://claudiajs.com) to build **serverless** RESTful functions, which will be deployed using  [AWS Lambda](https://aws.amazon.com/lambda/) + [AWS API Gateway](https://aws.amazon.com/api-gateway/)
+This project contains examples of using [Claudia.js](https://claudiajs.com) to build **serverless** RESTful functions, which can be deployed using  [AWS Lambda](https://aws.amazon.com/lambda/) + [AWS API Gateway](https://aws.amazon.com/api-gateway/)
 
 1. [gender](https://github.com/raymondwcs/claudia/tree/master/gender) - RESTful API to determine gender of some first names.
 1. [shape](https://github.com/raymondwcs/claudia/tree/master/shape) - RESTful APIs for calculating perimeter and area of circles and squares.
