@@ -1,11 +1,3 @@
-/*
-Learn how to deploy this to AWS (Lambda + API Gateway) using Claudia.js
-at the following URL
-
-https://github.com/raymondwcs/claudia/blob/master/gender/README.md
-
-*/
-
 var ApiBuilder = require('claudia-api-builder')
 var api = new ApiBuilder()
 
