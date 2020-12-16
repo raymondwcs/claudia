@@ -8,15 +8,16 @@ The simple serverless Web API determines the *gender* (male, female or unknown) 
 ```
 
 ## Preparation
-1. Obtain AWS **Access Key ID** and **Secret Access Key** for the *root* user.  Goto [AWS Console](https://aws.amazon.com/console/) and follow the instructions at the URL below.
-```
-https://www.techrepublic.com/article/how-to-create-an-access-key-for-the-root-user-in-aws/
-```
-2. Add the keys to your `~/.aws/credentials` file.
+1. Obtain your AWS **Access Key ID**, **AWS Secret Access Key** and **AWS Session Token**.
+![AWS Keys](../keys-1.jpg)
+![AWS Keys](../keys-2.jpg)
+![AWS Keys](../keys-3.jpg)
+2. Add these keys to your `~/.aws/credentials` file.
 ```
 [claudia]
 aws_access_key_id = YOUR_ACCESS_KEY
 aws_secret_access_key = YOUR_ACCESS_SECRET
+aws_session_token = YOUR_SESSION_TOKEN
 ```
 3. Change the access rights of `~/.aws/credentials`
 ```
