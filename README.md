@@ -5,3 +5,6 @@ This project contains examples of using [Claudia.js](https://claudiajs.com) to b
 1. `shape` - RESTful APIs for calculating perimeter and area of circles and squares.
 1. `booking` - Deploy Express app using [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html)
 1. `toRomanNumeral` - Deploy Express app using [Claudia's Lambda proxy wrapper](https://claudiajs.com/tutorials/serverless-express.html)
+
+### Notes
+You need to create a `~/.aws/credentials` file that contains your **AWS Access Key ID**, **AWS Secret Access Key** and **AWS Session Token**.  Please refer to the **Preparation** section of this document for more details.
