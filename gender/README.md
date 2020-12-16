@@ -6,9 +6,8 @@ The simple serverless Web API determines the *gender* (male, female or unknown) 
 ```
 /{name}
 ```
-
 ## Preparation
-1. Obtain your AWS **Access Key ID**, **AWS Secret Access Key** and **AWS Session Token**.
+1. Obtain your **AWS Access Key ID**, **AWS Secret Access Key** and **AWS Session Token**.
 ![AWS Keys](../keys-1.jpg)
 ![AWS Keys](../keys-2.jpg)
 ![AWS Keys](../keys-3.jpg)
