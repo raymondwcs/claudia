@@ -20,7 +20,7 @@ This example implements one RESTful API at the following endpoint:
 curl -X GET localhost:8099/api/booking/BK002
 ```
 ## Deploying the Express app to AWS Lambda and API Gateway
-1. Prepare `~/.aws/credentials` by following steps 1 to 5 described in this [document](../gender/README.md).
+1. Prepare `~/.aws/credentials` by following steps 1 to 5 described in the **Preparation** section of this [document](../gender/README.md).
 2. Generate **AWS Lambda wrapper** for the Express app
 ```
 ./node_modules/.bin/claudia generate-serverless-express-proxy --express-module app
