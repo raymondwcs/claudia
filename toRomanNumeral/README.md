@@ -6,7 +6,8 @@ This example implements one RESTful API, which returns the *roman representation
 /roman-numeral/{number}
 ```
 ## Deploying the Express app to AWS Lambda and API Gateway
-1. Prepare `~/.aws/credentials` by following steps 1 to 5 described in the **Preparation** section of this [document](../gender/README.md).
+1. You need to create a `~/.aws/credentials` file that contains your **AWS Access Key ID**, **AWS Secret Access Key** and **AWS Session Token**.  Follow steps described in the **Preparation section** of this [document](../README.md#preparation).
+
 2. Generate **AWS Lambda wrapper** for the Express app
 ```
 ./node_modules/.bin/claudia generate-serverless-express-proxy --express-module app
